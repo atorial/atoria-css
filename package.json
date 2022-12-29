@@ -1,6 +1,6 @@
 {
   "name": "@atoria/css",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "scripts": {
     "scss": "parcel build ./src/index.scss",
