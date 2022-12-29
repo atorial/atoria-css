@@ -22,6 +22,7 @@
   "license": "ISC",
   "files": [
     "dist/index.css",
+    "dist/index.css.map",
     "package.json",
     "README.md",
     "CHANGELOG.md"
