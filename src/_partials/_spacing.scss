@@ -1,0 +1,56 @@
+/** Generate Utilities for margins and padding */
+
+
+@for $item from 0 to 65 {
+  .m-#{$item} {
+    margin: #{$item * $base-size};
+  }
+  .p-#{$item} {
+    padding: #{$item * $base-size};
+  }
+
+  @each $key, $value in $positions {
+    @if ($key !=x and $key!=y) {
+      // positive padding
+      .p#{$key}-#{$item} {
+        padding-#{$value}: #{$item * $base-size};
+      }
+      // negative pdding
+      .-p#{$key}-#{$item} {
+        padding-#{$value}: -#{$item * $base-size};
+      }
+      // positive margins
+      .m#{$key}-#{$item} {
+        margin-#{$value}: #{$item * $base-size};
+      }
+      // negative margins
+      .-m#{$key}-#{$item} {
+        margin-#{$value}: -#{$item * $base-size};
+      }
+
+
+    } @else {
+      @if $key ==y {
+        // positive padding
+        .p#{$key}-#{$item} {
+          padding-top: #{$item * $base-size};
+          padding-bottom: #{$item * $base-size};
+        }
+        .m#{$key}-#{$item} {
+          margin-top: #{$item * $base-size};
+          margin-bottom: #{$item * $base-size};
+        }
+      } @else {
+        .p#{$key}-#{$item} {
+          padding-left: #{$item * $base-size};
+          padding-right: #{$item * $base-size};
+        }
+        .m#{$key}-#{$item} {
+          margin-left: #{$item * $base-size};
+          margin-right: #{$item * $base-size};
+        }
+      }
+    }
+  }
+
+}

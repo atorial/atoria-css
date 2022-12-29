@@ -1,0 +1,24 @@
+.flex {
+  display: flex;
+}
+
+.iflex {
+  display: inline-flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.igrid {
+  display: inline-grid;
+}
+
+@each $key, $value in $displayPosition {
+  .justify-#{$key} {
+    justify-content: $value;
+  }
+  .items-#{$key} {
+    align-items: $value;
+  }
+}

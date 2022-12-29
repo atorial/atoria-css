@@ -1,0 +1,42 @@
+{
+  "name": "@atoria/css",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "scss": "parcel build ./src/index.scss",
+    "dev": "parcel src/index.html",
+    "release": "standard-version",
+    "push:tag": "git push --follow-tags origin main ",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
+    "release:major": "standard-version --release-as major",
+    "uno": "standard-version -- --first-release"
+  },
+  "keywords": [
+    "atoria",
+    "Utitlity",
+    "sass",
+    "csss"
+  ],
+  "author": "Mitch Chanza <mitch.chanza@gmail> http://mitch.guru",
+  "license": "ISC",
+  "files": [
+    "dist/index.css",
+    "package.json",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atorial/atoria-css.git"
+  },
+  "devDependencies": {
+    "@parcel/core": "^2.8.2",
+    "@parcel/transformer-sass": "^2.8.2",
+    "parcel": "^2.8.2",
+    "standard-version": "^9.5.0"
+  }
+}

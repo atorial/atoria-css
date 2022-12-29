@@ -1,0 +1,42 @@
+.vw-full {
+  width: 100vw !important;
+}
+
+.vh-full {
+  height: 100vw !important;
+}
+
+.w-full {
+  width: 100% !important;
+}
+
+.h-full {
+  height: 100% !important;
+}
+@for $size from 0 to 100 {
+  .vh-#{$size} {
+    height: #{$size * 1vh} !important;
+  }
+  .vw-#{$size} {
+    width: #{$size * 1vw} !important;
+  }
+  .h-#{$size} {
+    height: #{$size * 1%}!important;
+  }
+  .w-#{$size} {
+    width: #{$size * 1%}!important;
+  }
+
+  .min-w-#{$size} {
+    min-width: #{$size * 1%}!important;
+  }
+  .max-w-#{$size} {
+    max-width: #{$size * 1%}!important;
+  }
+  .min-h-#{$size} {
+    min-height: #{$size * 1%}!important;
+  }
+  .max-h-#{$size} {
+    max-height: #{$size * 1%}!important;
+  }
+}
