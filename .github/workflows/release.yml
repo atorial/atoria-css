@@ -61,12 +61,8 @@ jobs:
   publish-package:
     needs: create-release
     runs-on: ubuntu-latest
-#    permissions:
-#      packages: write
-#      contents: read
     steps:
       - uses: actions/checkout@v3
-          # Setup .npmrc file to publish to npm
       - uses: actions/setup-node@v3
         with:
             node-version: '16.x'
