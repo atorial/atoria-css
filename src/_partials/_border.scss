@@ -1,0 +1,39 @@
+.rounded-full {
+  border-radius: 50%;
+}
+
+
+// Border Styles
+
+@for $i from 1 to 62 {
+  @each $key , $_ in $border-styles {
+    @if($i%2 ==0) {
+      .border-#{$key}-#{$i} {
+        border-style: $key;
+        border-width: #{$i * $base-size-px}
+      }
+    }
+  }
+
+  @each $key, $value in $colors {
+    .border-#{$key}-#{$i} {
+      border: #{$base-size-px* $i} solid $value;
+    }
+    @each $pkey, $pvalue in $positions {
+      @if ($pkey !=x and $pkey!=y) {
+        // The normal black color
+        .border-#{$pvalue}-#{$i} {
+
+          border-#{$pvalue}: #{$base-size-px*$i} solid $value;
+        }
+        // colored borders - border-top-red-1
+        .border-#{$pvalue}-#{$key}-#{$i} {
+          border-#{$pvalue}: #{$base-size-px*$i} solid $value;
+        }
+      }
+    }
+
+  }
+
+
+}
