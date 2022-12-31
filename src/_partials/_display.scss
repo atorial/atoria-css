@@ -16,7 +16,7 @@
 
 @each $key, $value in $displayPosition {
   .justify-#{$key} {
-    justify-content: $value;
+    justify-items: $value;
   }
   .items-#{$key} {
     align-items: $value;

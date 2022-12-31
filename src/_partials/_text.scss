@@ -1,0 +1,37 @@
+/** Text Color Styling */
+
+@each $key, $color in $colors{
+   .text-#{$key} {
+        color: $color;
+    }
+  @each $keys, $size in $text-sizing {
+    .text-#{$keys} {
+      font-size: $size;
+    }
+    .text-#{$key}-#{$keys} {
+      font-size: $size;
+      color: $color;
+    }
+  }
+}
+
+// Capitalized Text  Styling
+.cap {
+  text-transform: capitalize;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.lower {
+  text-transform: lowercase;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.strong {
+}
+

@@ -3,6 +3,8 @@ $secondary: #67A7DD;
 $success: #4a9a15;
 $error: #890000;
 $base-size: 0.25rem;
+$base-size-px: 0.5px;
+$base-border-size: 0.25rem;
 $base-margin: 0.5rem;
 $base-padding: 0.5rem;
 $base-radius: 0.25rem;
@@ -38,25 +40,70 @@ $grid-column-width: 4rem;
 $grid-column-gap: 1rem;
 $grid-row-gap: 1rem;
 $grid-column-gap: 2rem;
-
+$base-border-width: 1rem;
 $grid-column-gap: 2rem;
 
 /** Disable all margins and padding */
 p, h1, h2, h3, h4, h5, h6, span, div {
   margin: 0;
   padding: 0;
-  font-size: $base-font-size ;
-  font-weight: $base-font-weight ;
+  font-size: $base-font-size;
+  font-weight: $base-font-weight;
 }
 
 /** Positions */
 $positions: (
         "t": top, "l": left, "b": bottom, "r": right, "x": 0, "y": 0
 );
+$shadows: (
+        xs: 0 1px 2px rgba(0, 0, 0, 0.1),
+        sm: 0 2px 4px rgba(0, 0, 0, 0.1),
+        md: 0 4px 8px rgba(0, 0, 0, 0.1),
+        lg: 0 8px 16px rgba(0, 0, 0, 0.1),
+        xl: 0 16px 32px rgba(0, 0, 0, 0.1),
+        2xl: 0 32px 64px rgba(0, 0, 0, 0.1),
+        4xl: 0 64px 128px rgba(0, 0, 0, 0.1)
+);
+
+
+$responsive-sizes: (
+        "xs": 1rem,
+        "sm": 2rem,
+        "md": 3rem,
+        "lg": 4rem,
+        "xl": 5rem,
+);
+
+$text-sizing: (
+        2xs: xx-small,
+        xs: x-small,
+        sml: smaller,
+        sm: small,
+        initial: initial,
+        md: medium,
+        lg: large,
+        lgr: larger,
+        xl: x-large,
+        2xl: xx-large
+
+
+);
+/* BORDER STYLES */
+$border-styles: (
+        dotted:1,
+        dashed: 1,
+        outline: 1,
+        inset: 1,
+        outset: 1,
+        none: 1,
+        hidden: 1,
+        groove: 1,
+        double: 1,
+        ridge: 1
+);
 
 $displayPosition: (
-        "left": left, "right": right,
-        between: space-between,
+        "left": left, "right": right, between: space-between,
         "arround": space-around, "center": center, "start": start,
         "end": end, "flex-start": flex-start, "flex-end": flex-end,
         "normal": normal, "even": space-evenly, "stretch": stretch,
