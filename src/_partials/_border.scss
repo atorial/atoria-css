@@ -22,12 +22,12 @@
     @each $pkey, $pvalue in $positions {
       @if ($pkey !=x and $pkey!=y) {
         // The normal black color
-        .border-#{$pvalue}-#{$i} {
+        .border-#{$pkey}-#{$i} {
 
           border-#{$pvalue}: #{$base-size-px*$i} solid $value;
         }
         // colored borders - border-top-red-1
-        .border-#{$pvalue}-#{$key}-#{$i} {
+        .border-#{$pkey}-#{$key}-#{$i} {
           border-#{$pvalue}: #{$base-size-px*$i} solid $value;
         }
       }
