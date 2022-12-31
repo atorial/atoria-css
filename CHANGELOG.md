@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/mokkapps/changelog-generator-demo/compare/v0.0.6...v0.0.7) (2022-12-31)
+
+
+### Chores
+
+* add italics text styling ([e91b7f1](https://github.com/mokkapps/changelog-generator-demo/commits/e91b7f1aed96edb93a9402c3bd99c428d93ad53e))
+
 ### [0.0.6](https://github.com/mokkapps/changelog-generator-demo/compare/v0.0.5...v0.0.6) (2022-12-31)
 
 
