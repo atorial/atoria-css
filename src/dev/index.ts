@@ -1,7 +1,7 @@
 const root: any = document.querySelector(".root")
 // background color styles
 const bgColor = ['bg-red', 'bg-green', 'bg-yellow', 'bg-orange', 'bg-purple']
-const borderColor = ['border-red-1', 'border-purple-2', 'border-orange-4', "border-green-6", "border-pink-8"]
+const borderColor = ['border-red-1', 'border-purple-2', 'border-orange-4', "border-green-6", "border-pink-8", 'border-t-4', "border-l-4", "border-r-red-4"]
 const typographic = ['text-2xl', "text-xl", "text-lg", "text-md", 'text-sm", "text-sml','text-xs', 'text-2xs']
 const typographicColors = ['text-red-2xl', "text-gray-xl", "text-pink-lg", "text-yellow-md", 'text-purple-sm", "text-sml','text-xs', 'text-2xs']
 const rootElem: any=`
