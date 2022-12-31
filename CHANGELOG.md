@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.8](https://github.com/mokkapps/changelog-generator-demo/compare/v0.0.7...v0.0.8) (2022-12-31)
+
+
+### Features
+
+* add grid system fixes [#3](https://github.com/atorial/atoria-css/issues/3) ([30df5c9](https://github.com/mokkapps/changelog-generator-demo/commits/30df5c94c888981f21eaedf39aca17dabeb6d659))
+
 ### [0.0.7](https://github.com/mokkapps/changelog-generator-demo/compare/v0.0.6...v0.0.7) (2022-12-31)
 
 
