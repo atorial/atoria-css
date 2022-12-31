@@ -1,0 +1,5 @@
+@for $i from 1 to 10 {
+  .opacity-#{$i *10} {
+    opacity: calc($i*10/100) //
+  }
+}
