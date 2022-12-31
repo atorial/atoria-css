@@ -111,3 +111,9 @@ $displayPosition: (
         "inherit": inherit, "initial": initial, "revert": revert, "revert-layer": revert-layer,
         "unset": unset,
 );
+
+// Grid Variables
+$grid-columns: 12;
+$grid-gutter-width: 30px;
+$grid-column-width: calc((100% - #{$grid-gutter-width}) / #{$grid-columns});
+
