@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0](https://github.com/mokkapps/changelog-generator-demo/compare/v0.0.7...v1.0.0) (2023-01-08)
+
+
+### Features
+
+* add general styles ([e746639](https://github.com/mokkapps/changelog-generator-demo/commits/e7466399b30bb5ac7b27a9088aec2b1ac8ded337))
+* add grid system fixes [#3](https://github.com/atorial/atoria-css/issues/3) ([30df5c9](https://github.com/mokkapps/changelog-generator-demo/commits/30df5c94c888981f21eaedf39aca17dabeb6d659))
+* add opacity system fixes [#4](https://github.com/atorial/atoria-css/issues/4) ([14fc706](https://github.com/mokkapps/changelog-generator-demo/commits/14fc706c9e7fd0d1722c5dc193881416f34bf5fb))
+* major updates ([ce51993](https://github.com/mokkapps/changelog-generator-demo/commits/ce51993861e98df8b159780123afa013465fd35a))
+
+
+### Chores
+
+* **release:** 1.0.0 ([9eedf85](https://github.com/mokkapps/changelog-generator-demo/commits/9eedf85c45d60b59caa2e7c612d3f772a539fe2c))
+* **release:** 1.0.1 ([10e442a](https://github.com/mokkapps/changelog-generator-demo/commits/10e442a39fa251bbc3a3979f94fe99b2be5efaac))
+* remove [@use](https://github.com/use) and add [@import](https://github.com/import) ([19e66a2](https://github.com/mokkapps/changelog-generator-demo/commits/19e66a2391b493c907ab961f5c3ea425b2242a19))
+* update sponsorship link ([6288d75](https://github.com/mokkapps/changelog-generator-demo/commits/6288d75ea3aad9ee15f887a9a713f85f3c1be735))
+* update the tag ([ff52ae6](https://github.com/mokkapps/changelog-generator-demo/commits/ff52ae6bfa6bbade19b507d423dc803497048582))
+
 ### [1.0.1](https://github.com/mokkapps/changelog-generator-demo/compare/v1.0.0...v1.0.1) (2023-01-08)
 
 ## [1.0.0](https://github.com/mokkapps/changelog-generator-demo/compare/v0.0.7...v1.0.0) (2023-01-08)
