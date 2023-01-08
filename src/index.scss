@@ -1,13 +1,15 @@
 @use "sass:math";
-@import "_partials/base";
-@import "_partials/background";
-@import "_partials/display";
-@import "_partials/sizing";
-@import "_partials/spacing";
-@import "_partials/grid";
-@import "_partials/border";
-@import "_partials/shadows";
-@import "_partials/text";
-@import "_partials/opacity";
+@use "functions/index";
+@use "_partials/base";
+@use "_partials/background";
+@use "_partials/display";
+@use "_partials/sizing";
+@use "_partials/spacing";
+@use "_partials/grid";
+@use "_partials/border";
+@use "_partials/shadows";
+@use "_partials/text";
+@use "_partials/opacity";
+@use "_partials/general";
 
 
