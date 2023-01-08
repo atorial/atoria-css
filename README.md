@@ -1,27 +1,13 @@
 # @toria
-<img src="https://atoria.site/logo3.png" alt="@toria logo"/>
+<img src="./src/public/social-tr.png" alt="@toria logo"/>
 
 - - -
-<div style="display:flex; justify-content:center; align-items: center">
- <spn style="display:flex;align-items:center; margin-right:12px;"> 
-    <img src="https://img.icons8.com/color/32/null/internet--v1.png" style="margin-right:5px" alt="" />
-    <a href="https://www.atoria.site">www.atoria.site</a>
-</spn>
-|
- <spn style="display:flex;align-items:center; margin-right:14px;"> 
-    <img src="https://img.icons8.com/windows/32/null/github.png" style="margin-right:5px" alt="" />
-    <a href="https://github.com/atorial/atoria.git">atoria</a>
-</spn>
-|
- <spn style="display:flex;align-items:center; margin-right:5px;"> 
-    <img src="https://img.icons8.com/color/32/null/npm.png" style="margin-right:5px" alt="" />
-    <a href="https://github.com/atorial/atoria.git">atoria</a>
-</spn>
-</div>
+🌐 [www.atoria.site](https://www.atoria.site) | ✉️ [hello@atoia.site](nailto:hello@atoria.site)
+
 
 --- 
 
-[![Publish package](https://github.com/atorial/atoriacss/actions/workflows/release.yml/badge.svg)](https://github.com/atorial/atoriacss/actions/workflows/release.yml)
+[![CI/CD](https://github.com/atorial/atoriacss/actions/workflows/release.yml/badge.svg)](https://github.com/atorial/atoriacss/actions/workflows/release.yml)
  
 Atoria is a simple, lightweight frontend library designed to make it easy to create visually appealing, responsive layouts for modern websites and applications. It is built with simplicity in mind and aims to provide a set of easy-to-use, customizable styles that can be quickly applied to your project.
 
