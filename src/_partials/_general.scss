@@ -1,0 +1,63 @@
+@mixin trim($numLines: null){
+  @if $numLines != null {
+    display:-webkit-box;
+    -webkit-line-clamp:$numLines;
+    -webkit-box-orient:vertical;
+    overflow:hidden;
+  }
+  @else{
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+    display:block;
+  }
+}
+.container {
+  width: 100%;
+  max-width: 72rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 1.25rem;
+}
+.chop {
+  @include trim;
+}
+@for $i from 1 to 10 {
+  .chop-#{$i} {
+    @include trim($i)
+  }
+}
+.desktop {
+  display: none;
+}
+@media screen and (min-width: 32rem){
+  .desktop {
+    display: block !important;
+  }
+  .mobile {
+    display: none !important;
+  }
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.hide {
+  display: none;
+}
+.show {
+  display: block !important;
+}
