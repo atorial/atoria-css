@@ -3,7 +3,7 @@
   "version": "0.0.7",
   "description": "",
   "scripts": {
-    "scss": "parcel build ./src/index.scss",
+    "scss": "parcel build ./src/background.scss",
     "dev": "parcel src/index.html",
     "release": "standard-version",
     "push:tag": "git push --follow-tags origin main ",
