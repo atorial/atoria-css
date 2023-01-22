@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/mokkapps/changelog-generator-demo/compare/v1.0.0...v1.1.0) (2023-01-22)
+
+
+### Features
+
+* upgraded README.md and ci/cd name ([beabc2d](https://github.com/mokkapps/changelog-generator-demo/commits/beabc2d6b9672d88cf0f949f32f99cb4d561550a))
+
+
+### Documentation
+
+* add docs for general,scss ([c34931e](https://github.com/mokkapps/changelog-generator-demo/commits/c34931e221abeba454d2711dda2804ddc1c7312b))
+
+
+### Chores
+
+* add ui ([e244aea](https://github.com/mokkapps/changelog-generator-demo/commits/e244aea7761f19c201bbb2029b9938f723206973))
+* remove typescript ([30650bc](https://github.com/mokkapps/changelog-generator-demo/commits/30650bce0f3bd48dcf72a80cc45ca1c39e518671))
+
 ## [1.0.0](https://github.com/mokkapps/changelog-generator-demo/compare/v0.0.7...v1.0.0) (2023-01-08)
 
 
