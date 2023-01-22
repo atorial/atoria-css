@@ -1,3 +1,4 @@
+/** trims text by number of lines */
 @mixin trim($numLines: null){
   @if $numLines != null {
     display:-webkit-box;
@@ -12,6 +13,8 @@
     display:block;
   }
 }
+
+// Container styling
 .container {
   width: 100%;
   max-width: 72rem;
@@ -19,14 +22,17 @@
   box-sizing: border-box;
   padding: 0 1.25rem;
 }
+// Chop words using the trim mixin
 .chop {
   @include trim;
 }
+// chop with a custom number of lines using trim mixin
 @for $i from 1 to 10 {
   .chop-#{$i} {
     @include trim($i)
   }
 }
+// misceleneous desktop styling
 .desktop {
   display: none;
 }
